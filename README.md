@@ -35,3 +35,4 @@ https://github-clone.herokuapp.com/
 * [Create React App](https://github.com/facebookincubator/create-react-app).
 * [Awesome React GraphQL](https://github.com/hasura/awesome-react-graphql).
 * [HackerNews clone using JS, React and GraphQL](https://github.com/clintonwoo/hackernews-react-graphql).
+* [How to search with Github GraphQL](https://medium.com/@katopz/how-to-search-with-github-graphql-e6c142dc61ed).
