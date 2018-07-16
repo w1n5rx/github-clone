@@ -13,6 +13,7 @@ import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 
 import Avatar from "./Avatar";
+import Repositories from "./Repositories";
 
 const CLIENT_ID = "3e41f689f18e4604b3a8";
 const REDIRECT_URI = "http://localhost:3000/";
@@ -85,6 +86,7 @@ class App extends Component {
               }
             }}
           />
+          {this.state.status === STATUS.AUTHENTICATED && <Repositories />}
         </Container>
       </ApolloProvider>
     );
